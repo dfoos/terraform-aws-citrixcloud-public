@@ -1,5 +1,7 @@
 # terraform-aws-citrixcloud-public
-Terraform module to create Citrix Cloud resources (Cloud Connectors, VDAs, FAS servers and security group rules) for both simple and complex Citrix Cloud deployments in AWS following the the Citrix reference architecture for AWS.
+Terraform module to create Citrix Cloud resources (Cloud Connectors, VDAs, FAS servers and security group rules) for both simple and complex Citrix Cloud deployments in AWS following the [Reference Architecture: Citrix DaaS - AWS](https://community.citrix.com/tech-zone/design/reference-architectures/citrix-virtual-apps-and-desktops-on-aws/).
+
+[derrickfoos.com](https://derrickfoos.com)
 
 ![Diagram 2: 100% Cloud Services on AWS with AWS Managed Services](https://content.invisioncic.com/m329563/monthly_2024_02/reference-architectures_citrix-virtual-apps-and-desktops-on-aws_002.png.3038cc763c962bed5839adbb219857a1.png "100% Cloud Services on AWS with AWS Managed Services")
 

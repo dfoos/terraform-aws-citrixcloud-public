@@ -144,11 +144,11 @@ resource "aws_security_group" "virtual_app" {
   count = length(local.instance_map_virtual_app) > 0 ? 1 : 0
 
   name        = var.tenant == "" ? "virtual_app-sg" : format("%s-virtual_app-sg", var.tenant)
-  description = "virtual_app security group"
+  description = "virtual app security group"
   vpc_id      = var.vpc_id
 
   tags = {
-    Name       = var.tenant == "" ? "virtual_app-sg" : format("%s-virtual_app-sg", var.tenant)
+    Name       = var.tenant == "" ? "virtual-app-sg" : format("%s-virtual-app-sg", var.tenant)
     Tenant     = var.tenant
     CitrixType = "virtual_app"
   }
@@ -158,12 +158,12 @@ resource "aws_security_group" "virtual_app" {
 resource "aws_security_group" "virtual_desktop" {
   count = length(local.instance_map_virtual_desktop) > 0 ? 1 : 0
 
-  name        = var.tenant == "" ? "virtual_desktop-sg" : format("%s-virtual_desktop-sg", var.tenant)
-  description = "virtual_desktop security group"
+  name        = var.tenant == "" ? "virtual-desktop-sg" : format("%s-virtual-desktop-sg", var.tenant)
+  description = "virtual desktop security group"
   vpc_id      = var.vpc_id
 
   tags = {
-    Name       = var.tenant == "" ? "virtual_desktop-sg" : format("%s-virtual_desktop-sg", var.tenant)
+    Name       = var.tenant == "" ? "virtual-desktop-sg" : format("%s-virtual-desktop-sg", var.tenant)
     Tenant     = var.tenant
     CitrixType = "virtual_desktop"
   }
