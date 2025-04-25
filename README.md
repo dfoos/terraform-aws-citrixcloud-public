@@ -3,7 +3,7 @@ Terraform module to create Citrix Cloud resources (Cloud Connectors, VDAs, FAS s
 
 [derrickfoos.com](https://derrickfoos.com)
 
-![Diagram 2: 100% Cloud Services on AWS with AWS Managed Services](https://content.invisioncic.com/m329563/monthly_2024_02/reference-architectures_citrix-virtual-apps-and-desktops-on-aws_002.png.3038cc763c962bed5839adbb219857a1.png "100% Cloud Services on AWS with AWS Managed Services")
+![Diagram 2: 100% Cloud Services on AWS with AWS Managed Services](https://media.invisioncic.com/m329563/monthly_2024_02/reference-architectures_citrix-virtual-apps-and-desktops-on-aws_001.png.f8a6ea16a7829c833f168924c7fb9ad5.png)
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
